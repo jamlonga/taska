@@ -19,12 +19,12 @@ import java.util.ArrayList
 import java.util.List;
 
 @RestController
-@RequestMapping(value = "/api/service/v1/tasks")
+//@RequestMapping(value = "/api/service/v1/tasks")
 public class TaskController {
     Logger logger= LoggerFactory.getLogger(TaskController.class);
     @Autowired
     TaskService service;
-
+/*
     @RequestMapping(method = RequestMethod.POST, consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity createTask(@RequestBody @Valid TaskTransport taskTransport,
                                      HttpServletResponse response) {
@@ -56,6 +56,13 @@ public class TaskController {
         ResponseTransport<TaskTransport> responseTransport =
                 new ResponseTransport<>(taskTransportList.size(), 5, taskTransportList);
         return new ResponseEntity<>(responseTransport,HttpStatus.OK);
+    }
+    */
+    @RequestMapping(value="/",method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public String getTaskList() {
+
+        return "Heyyy";
     }
 
 }
