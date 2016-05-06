@@ -1,8 +1,0 @@
-com/taska/web/api/transport/TaskTransport.class
-com/taska/service/TaskService.class
-com/taska/web/api/transport/ResponseTransport.class
-com/taska/web/api/controller/TaskController.class
-com/taska/TaskaApplication.class
-com/taska/bean/Task.class
-com/taska/dao/TaskDao$1.class
-com/taska/dao/TaskDao.class

@@ -1,7 +1,0 @@
-
-CREATE TABLE task(
-  id INTEGER IDENTITY PRIMARY KEY,
-  subject VARCHAR(30),
-  content  VARCHAR(150),
-  status  VARCHAR(30)
-);
