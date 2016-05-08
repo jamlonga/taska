@@ -44,7 +44,7 @@ e.g., http://localhost:8080/api/service/v1/tasks
 
 API docs
 --------------------------------
-- Create/add new task
+**Create/add new task**
 
 POST: http://localhost:8080/api/service/v1/tasks
 
@@ -58,15 +58,15 @@ JSON Request Body example:
 }
 ```
 
-- Get all tasks , will return in JSON format
+**Get all tasks , will return in JSON format**
 
 GET: http://localhost:8080/api/service/v1/tasks
 
-- Get tasks by id
+**Get tasks by id**
 
 GET: http://localhost:8080/api/service/v1/tasks/{id}
 
-- Update task by id
+**Update task by id**
 
 PUT: http://localhost:8080/api/service/v1/tasks/{id}
 
@@ -80,7 +80,7 @@ JSON Request Body when need to update status for task id=0:
 }
 ```
 
-- Delete task by id
+**Delete task by id**
 
 DELETE: http://localhost:8080/api/service/v1/tasks/{id}
 
