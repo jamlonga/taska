@@ -37,7 +37,7 @@ The step you need to do for making Taska up and running on your machine.
 `mvn clean inatall`
 
 **Run project**
-`cd frontier-service; mvn spring-boot:run`
+`mvn spring-boot:run`
 
 API will run on port 8080
 e.g., http://localhost:8080/api/service/v1/tasks
