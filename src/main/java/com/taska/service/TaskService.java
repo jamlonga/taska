@@ -15,7 +15,16 @@ public class TaskService {
     public void addTask(Task task){
         dao.addTask(task);
     }
+    public void updateTask(Task task){
+        dao.updateTask(task);
+    }
+    public void deleteTask(Integer id){
+        dao.deleteTask(id);
+    }
     public List<Task> getAllTask() {
         return dao.getAllTask();
+    }
+    public Task getTask(Integer id){
+        return dao.getTask(id);
     }
 }
