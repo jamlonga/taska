@@ -45,37 +45,35 @@ e.g., http://localhost:8080/api/service/v1/tasks
 API docs
 --------------------------------
 1. Create/add new task
-
 POST: http://localhost:8080/api/service/v1/tasks
 JSON Request Body example:
+```json
 {
     "id":null,
     "subject":"subject here",
     "content":"content here",
     "status":"Done"
 }
+```
 
 2. Get all tasks , will return in JSON format
-
 GET: http://localhost:8080/api/service/v1/tasks
 
 3. Get tasks by id
-
 GET: http://localhost:8080/api/service/v1/tasks/{id}
 
 4. Update task by id
-
 PUT: http://localhost:8080/api/service/v1/tasks/{id}
-
 JSON Request Body when need to update status for task id=0:
+```json
 {
     "id":0,
     "subject":"subject here",
     "content":"content here",
     "status":"Pending"
 }
+```
 
 5. Delete task by id
-
 DELETE: http://localhost:8080/api/service/v1/tasks/{id}
 
